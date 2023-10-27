@@ -1,0 +1,92 @@
+#navbutton {
+  color: #0aaa01;
+  background-color: #0aaa01;
+}
+.nav-link {
+  font-family: dm sans, Sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #535b62;
+  padding: 0 15px;
+}
+.nav-link:hover {
+  color: #0aaa01;
+}
+.ruler1,
+.ruler2 {
+  opacity: 30%;
+  border-top: 1px solid #535b62;
+  box-shadow: 2px 2px 2px 0px #535b62;
+  margin: 0px;
+}
+
+.links {
+  font-family: dm sans, Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #535b62;
+  text-decoration: none;
+}
+.links:hover,
+&:active {
+  color: #0aaa01;
+}
+.btn:hover {
+  background-color: #0aaa01;
+  color: white;
+}
+.btn {
+  border: 1px solid #0aaa01;
+  color: #0aaa01;
+}
+.bgclr {
+  background-color: #fafafa;
+}
+.cardLink {
+  color: #0aaa01;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.fontSize {
+  font-size: 12px;
+}
+.contentH {
+  text-overflow: ellipsis;
+  height: auto;
+
+  font-weight: 400;
+  overflow: hidden;
+}
+.contentP {
+  text-overflow: ellipsis;
+  height: auto;
+
+  font-weight: 200;
+  overflow: hidden;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  top: 45px;
+  bottom: 0;
+  left: 0;
+  background-color: #0aaa01;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-in;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
