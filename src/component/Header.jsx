@@ -1,14 +1,15 @@
 import React from 'react'
-import  '../assets/react.svg'
+
 
 function Header() {
   return (
     <div className="header">
       <div className="m-3 d-flex justify-content-between align-items-center">
         <img
-          src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.svg"
+          src="./src/assets/Guvi-blog-logo.png"
           alt="logo"
         />
+        
         <div>
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">

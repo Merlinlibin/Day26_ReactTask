@@ -428,7 +428,7 @@ const datas = {
       description:
         "Have you ever felt confused when you decided to set up your career path as",
       imageUrl:
-        "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-Introduction-to-Java-and-Basic-Concepts-You-Should-Know.png",
+        "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-Real-World-Web-Development-Applications.webp",
       date: "29 August 2023",
       comments: "No Comments",
       type: "CAR",

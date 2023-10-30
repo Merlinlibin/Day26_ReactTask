@@ -2,11 +2,7 @@ import React from "react";
 
 function ALLHead() {
   return (
-    <img
-      className="container"
-      src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header.png"
-      alt="All-img"
-    />
+    <img className="container" src="./src/assets/blog-header-1200x184.png" alt="All-img" />
   );
 }
 
