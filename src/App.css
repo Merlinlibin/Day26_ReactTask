@@ -62,7 +62,6 @@
 .contentP {
   text-overflow: ellipsis;
   height: auto;
-
   font-weight: 200;
   overflow: hidden;
 }
@@ -89,4 +88,11 @@
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom center;
+}
+@media screen and (min-width:965px) {
+ .menu{
+ padding-left: 18%;
+ padding-right: 18%;
+}
+ 
 }

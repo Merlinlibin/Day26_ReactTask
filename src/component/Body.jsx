@@ -23,56 +23,65 @@ function Body({ datas }) {
           <Route path="/career/" element={<CARHead />} />
         </Routes>
         <div className="ruler2 mt-0 p-0"></div>
-        <nav className="navbar navbar-expand-lg">
-          <div className="container-fluid">
-            <h4 className="navbar-toggler mx-2 border-0">Blog Catrgory</h4>
+
+        <nav class="navbar navbar-expand-lg  ">
+          <div class="container-fluid menu">
+            <h4 className="navbar-toggler mx-2 border-0 Bold text ">
+              Blog Catrgory
+            </h4>
             <button
-              className="navbar-toggler mx-3"
+              class="navbar-toggler "
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
               id="navbutton">
-              <span className="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div
-              className="collapse navbar-collapse d-lg-flex align-items-center justify-content-center"
-              id="navbarNavDropdown">
-              <div className=" mt-1 navbar-nav">
-                <Link
-                  className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
-                  to="/"
-                  id="All">
-                  All
-                </Link>
-
-                <Link
-                  className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
-                  to="/full-stack-development/"
-                  id="Fullstack">
-                  FULL STACK DEVELOPMENT
-                </Link>
-                <Link
-                  className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
-                  to="/data-science/"
-                  id="Datascience">
-                  DATA SCIENCE
-                </Link>
-                <Link
-                  className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
-                  to="/cyber-security/"
-                  id="Cybersecurity">
-                  CYBER SECURITY
-                </Link>
-                <Link
-                  className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
-                  to="/career/">
-                  CAREER
-                </Link>
-              </div>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav  mb-2 mb-lg-0  ">
+                <li class="nav-item text-center">
+                  <Link
+                    className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
+                    to="/"
+                    id="All">
+                    All
+                  </Link>
+                </li>
+                <li class="nav-item text-center">
+                  <Link
+                    className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
+                    to="/full-stack-development/"
+                    id="Fullstack">
+                    FULL STACK DEVELOPMENT
+                  </Link>
+                </li>
+                <li class="nav-item text-center">
+                  <Link
+                    className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
+                    to="/data-science/"
+                    id="Datascience">
+                    DATA SCIENCE
+                  </Link>
+                </li>
+                <li class="nav-item text-center">
+                  <Link
+                    className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
+                    to="/cyber-security/"
+                    id="Cybersecurity">
+                    CYBER SECURITY
+                  </Link>
+                </li>
+                <li class="nav-item text-center">
+                  <Link
+                    className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
+                    to="/career/">
+                    CAREER
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </nav>
