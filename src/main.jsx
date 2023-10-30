@@ -208,7 +208,7 @@ const datas = {
       description:
         "Have you ever wondered how much time it takes to learn data science? ",
       imageUrl:
-        "https://www.guvi.in/blog/wp-content/uploads/2023/10/feature-image-Stages-of-the-Tech-Hiring-Process.png",
+        "https://www.guvi.in/blog/wp-content/uploads/2023/08/Future-of-Data-Science.webp",
       date: "5 August 2023",
       comments: "No Comments",
       type: "DS",
@@ -241,7 +241,7 @@ const datas = {
       description:
         "Look around today, you will witness that we are more reliant on technology and devices",
       imageUrl:
-        "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-Essential-Cloud-Computing-Skills-for-Cloud-Engineers.png",
+        "https://www.guvi.in/blog/wp-content/uploads/2023/08/Future-of-Data-Science.webp",
       date: "20 December 2022",
       comments: "No Comments",
       type: "CS",
@@ -285,7 +285,7 @@ const datas = {
       description:
         "Cyber security attacks are the type of actions that are designed to destroy, ste,",
       imageUrl:
-        "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-Essential-Cloud-Computing-Skills-for-Cloud-Engineers.png",
+        "https://www.guvi.in/blog/wp-content/uploads/2023/08/Future-of-Data-Science.webp",
       date: "9 November 2022",
       comments: "No Comments",
       type: "CS",
@@ -384,7 +384,7 @@ const datas = {
       description:
         "In this age and time, where computer science and engineering are reining all ",
       imageUrl:
-        "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-How-to-Become-a-Civil-Engineer-in-India.png",
+        "https://www.guvi.in/blog/wp-content/uploads/2023/08/Future-of-Data-Science.webp",
       date: "11 September 2023",
       comments: "No Comments",
       type: "CAR",
@@ -439,7 +439,7 @@ const datas = {
       description:
         "Motion graphics is like creating moving pictures with design and animation. ",
       imageUrl:
-        "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-Java-vs-JavaScript-Top-3-Comparisons.webp",
+        "https://www.guvi.in/blog/wp-content/uploads/2023/08/Future-of-Data-Science.webp",
       date: "20 August 2023",
       comments: "No Comments",
       type: "CAR",

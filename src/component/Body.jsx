@@ -38,7 +38,9 @@ function Body({ datas }) {
               <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div className="collapse navbar-collapse d-lg-flex align-items-center justify-content-center">
+            <div
+              className="collapse navbar-collapse d-lg-flex align-items-center justify-content-center"
+              id="navbarNavDropdown">
               <div className=" mt-1 navbar-nav">
                 <Link
                   className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
@@ -46,6 +48,7 @@ function Body({ datas }) {
                   id="All">
                   All
                 </Link>
+
                 <Link
                   className="px-lg-3 px-sm-1 links hover-underline-animation nav-link"
                   to="/full-stack-development/"

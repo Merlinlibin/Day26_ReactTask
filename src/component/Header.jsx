@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react'
+import  '../assets/react.svg'
 
 function Header() {
   return (
     <div className="header">
       <div className="m-3 d-flex justify-content-between align-items-center">
         <img
-          src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png"
+          src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.svg"
           alt="logo"
         />
         <div>
@@ -60,4 +61,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header
