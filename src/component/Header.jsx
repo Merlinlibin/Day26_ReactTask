@@ -6,9 +6,9 @@ function Header() {
     <div className="header">
       <div className="m-3 d-flex justify-content-between align-items-center">
         <img
-          src="https://www.guvi.in/build/images/guvi-logo.e8ad68fbd8dc0a5fc2f7c4ffd580c54d.png"
+          src="https://www.careervira.com/_next/image?url=https%3A%2F%2Fd2lk14jtvqry1q.cloudfront.net%2Fmedia%2Fsmall_GUVI_1_c02a18fad7.png&w=640&q=75"
           alt="logo"
-          className='logo'
+          className="logo"
         />
 
         <div>
