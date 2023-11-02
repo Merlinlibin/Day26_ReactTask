@@ -9,9 +9,9 @@ function Footer() {
             <div className="row mt-3">
               <div className="col-lg-3 col-md-12 col-sm-12 col-12 mx-auto mb-4">
                 <img
-                  className="my-1"
-                  src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png"
+                  src="https://www.guvi.in/build/images/guvi-logo.e8ad68fbd8dc0a5fc2f7c4ffd580c54d.png"
                   alt="logo"
+                  className='logo'
                 />
                 <br />
                 <hr style={{ width: "70%" }} />

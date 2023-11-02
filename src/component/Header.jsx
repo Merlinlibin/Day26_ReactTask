@@ -6,10 +6,11 @@ function Header() {
     <div className="header">
       <div className="m-3 d-flex justify-content-between align-items-center">
         <img
-          src="./src/assets/Guvi-blog-logo.png"
+          src="https://www.guvi.in/build/images/guvi-logo.e8ad68fbd8dc0a5fc2f7c4ffd580c54d.png"
           alt="logo"
+          className='logo'
         />
-        
+
         <div>
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
@@ -17,7 +18,7 @@ function Header() {
                 className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
+                data-bs-target="#"
                 aria-controls="navbarNav"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
